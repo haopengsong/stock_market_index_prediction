@@ -116,7 +116,7 @@ X_test = np.reshape(X_test, (X_test.shape[0], 1, X_test.shape[1]))
 
 ## Part 4:  Build and run an RNN regression model
 
-Using Keras to set up a two hidden layer RNN:
+Using Torch to set up a two hidden layer RNN:
   - layer 1 uses and LSTM module with 5 hidden units
   - layer 2 uses a fully connected module with one unit
   - use MSE as our loss function
